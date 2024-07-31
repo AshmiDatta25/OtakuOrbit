@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f68d43;
@@ -145,6 +146,34 @@ footer p {
     line-height: 1.6;
 }
 
+.sample-reviews {
+    margin-top: 20px;
+}
+
+.sample-reviews h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.review {
+    background-color: #ffe2b6;
+    border: 2px solid #efb55d;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.review h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+    color: #efb55d;
+}
+
+.review p {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
 .add-review {
     margin-top: 20px;
     max-width: 600px;
