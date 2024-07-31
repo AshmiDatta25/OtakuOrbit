@@ -1,0 +1,300 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f68d43;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffe2b6;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #efb55d;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #f68d43;
+    text-shadow: 1px 1px #efb55d;
+}
+
+.nav-bar {
+    margin-top: 10px;
+}
+
+.nav-bar a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    margin-top: 15px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #efb55d;
+    border-radius: 5px;
+    background-color: #ffe2b6;
+    color: #333;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #efb55d;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.anime-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.anime-item {
+    background-color: #ffe2b6;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid #efb55d;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.anime-item img {
+    width: 100%;
+    border-bottom: 2px solid #efb55d;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.anime-item h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.view-now {
+    padding: 10px 20px;
+    border: none;
+    background-color: #efb55d;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #ffe2b6;
+    padding: 10px;
+    text-align: center;
+    border-top: 3px solid #efb55d;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #fff;
+}
+
+.anime-review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f0e1d6;
+    margin-top: 20px;
+}
+
+.anime-review img {
+    width: 300px;
+    height: auto;
+    border: 2px solid #efb55d;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.details {
+    max-width: 500px;
+}
+
+.details h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.add-review {
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.add-review h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-review form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-review label {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.add-review textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #efb55d;
+    border-radius: 5px;
+    background-color: #ffe2b6;
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.add-review button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #efb55d;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffe2b6;
+    border: 2px solid #efb55d;
+    border-radius: 10px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #efb55d;
+    border-radius: 5px;
+    background-color: #ffe2b6;
+    color: #333;
+}
+
+.login-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #efb55d;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login-form p {
+    text-align: center;
+}
+
+.login-form a {
+    color: #efb55d;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+/* Signup Form Styles */
+.signup-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffe2b6;
+    border: 2px solid #efb55d;
+    border-radius: 10px;
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form label {
+    margin-bottom: 5px;
+}
+
+.signup-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #efb55d;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.signup-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #efb55d;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signup-form p {
+    text-align: center;
+}
+
+.signup-form a {
+    color: #efb55d;
+    text-decoration: none;
+}
+
+.signup-form a:hover {
+    text-decoration: underline;
+}
